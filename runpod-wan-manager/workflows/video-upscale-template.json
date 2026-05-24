@@ -1,0 +1,26 @@
+{
+  "1": {
+    "inputs": {
+      "video_path": "input_video.mp4"
+    },
+    "class_type": "VHS_LoadVideo"
+  },
+  "2": {
+    "inputs": {
+      "upscale_model": "RealESRGAN_x4plus.pth"
+    },
+    "class_type": "UpscaleModelLoader"
+  },
+  "3": {
+    "inputs": {
+      "upscale_by": 2.0
+    },
+    "class_type": "ImageUpscaleWithModel"
+  },
+  "4": {
+    "inputs": {
+      "video": "upscaled_video.mp4"
+    },
+    "class_type": "VHS_VideoCombine"
+  }
+}

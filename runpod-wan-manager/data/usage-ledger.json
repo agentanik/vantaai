@@ -1,0 +1,68 @@
+[
+  {
+    "id": "61f3681d-6393-41c4-b416-e10ee9edab47",
+    "userId": "admin-user",
+    "jobId": "job_79769bdb6be2405d",
+    "gpuType": "RTX 4090",
+    "runtimeSeconds": 133,
+    "provider": "comfyui",
+    "costUsd": 0.0273,
+    "creditsCharged": 0.0273,
+    "timestamp": "2026-05-23T03:05:38.959Z"
+  },
+  {
+    "id": "64e1c49b-2461-4246-962c-8b61d2690f1b",
+    "userId": "admin-user",
+    "jobId": "job_20f2c08d06864430",
+    "gpuType": "RTX 4090",
+    "runtimeSeconds": 188,
+    "provider": "comfyui",
+    "costUsd": 0.0386,
+    "creditsCharged": 0.0386,
+    "timestamp": "2026-05-23T03:46:33.025Z"
+  },
+  {
+    "id": "eb6b83b8-3848-4afd-a8e9-e3d592a22e25",
+    "userId": "admin-user",
+    "jobId": "job_2166e18bdbfa47ed",
+    "gpuType": "RTX 4090",
+    "runtimeSeconds": 155,
+    "provider": "comfyui",
+    "costUsd": 0.0319,
+    "creditsCharged": 0.0319,
+    "timestamp": "2026-05-23T04:33:45.057Z"
+  },
+  {
+    "id": "213af621-a325-43c0-b7f1-e68c774f4002",
+    "userId": "local",
+    "jobId": "job_883b82fe15d041ed",
+    "gpuType": "RTX 4090",
+    "runtimeSeconds": 304,
+    "provider": "comfyui",
+    "costUsd": 0.0625,
+    "creditsCharged": 0.0625,
+    "timestamp": "2026-05-23T06:16:40.722Z"
+  },
+  {
+    "id": "b995baf6-d75d-414b-81bf-bd19f312866c",
+    "userId": "local",
+    "jobId": "job_a5cc91b766bd42dd",
+    "gpuType": "RTX 4090",
+    "runtimeSeconds": 338,
+    "provider": "comfyui",
+    "costUsd": 0.0695,
+    "creditsCharged": 0.0695,
+    "timestamp": "2026-05-23T06:22:58.259Z"
+  },
+  {
+    "id": "7aa5716c-faf5-4957-99fa-5e542372a792",
+    "userId": "local",
+    "jobId": "job_f32655c9bf6045ab",
+    "gpuType": "RTX 4090",
+    "runtimeSeconds": 344,
+    "provider": "comfyui",
+    "costUsd": 0.0707,
+    "creditsCharged": 0.0707,
+    "timestamp": "2026-05-23T06:28:46.111Z"
+  }
+]

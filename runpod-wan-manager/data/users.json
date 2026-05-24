@@ -1,0 +1,31 @@
+[
+  {
+    "id": "test-user",
+    "email": "test@example.com",
+    "creditsBalance": 100,
+    "role": "user",
+    "dailyBudgetLimitUsd": 10,
+    "monthlyBudgetLimitUsd": 150,
+    "status": "active"
+  },
+  {
+    "id": "admin-user",
+    "email": "admin@example.com",
+    "creditsBalance": 469.9022,
+    "role": "admin",
+    "dailyBudgetLimitUsd": 50,
+    "monthlyBudgetLimitUsd": 500,
+    "status": "active",
+    "reservedCredits": {}
+  },
+  {
+    "id": "local",
+    "email": "local@local.com",
+    "creditsBalance": 999938.7973,
+    "role": "admin",
+    "dailyBudgetLimitUsd": 5000,
+    "monthlyBudgetLimitUsd": 50000,
+    "status": "active",
+    "reservedCredits": {}
+  }
+]

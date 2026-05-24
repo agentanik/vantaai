@@ -1,0 +1,1740 @@
+[
+  {
+    "id": "audit_7b92b890c99742d4",
+    "action": "api_key_created",
+    "userId": "user_123",
+    "details": {
+      "apiKeyId": "key_f4fc5aa4fe7541ff"
+    },
+    "timestamp": "2026-05-23T00:18:45.933Z"
+  },
+  {
+    "id": "audit_86e9e931cd1b4160",
+    "action": "api_key_used",
+    "userId": "user_123",
+    "details": {
+      "apiKeyId": "key_f4fc5aa4fe7541ff"
+    },
+    "timestamp": "2026-05-23T00:18:45.941Z"
+  },
+  {
+    "id": "audit_9de3102d2de54343",
+    "action": "api_key_auth_failed",
+    "userId": "user_123",
+    "details": {
+      "apiKeyId": "key_f4fc5aa4fe7541ff",
+      "prefix": "mgr_live_e1e4",
+      "reason": "Missing required scope: admin:*"
+    },
+    "timestamp": "2026-05-23T00:18:45.943Z"
+  },
+  {
+    "id": "audit_0f0d05037e434d39",
+    "action": "api_key_auth_failed",
+    "details": {
+      "prefix": "mgr_live_e1e4",
+      "reason": "Invalid API key credentials"
+    },
+    "timestamp": "2026-05-23T00:18:45.945Z"
+  },
+  {
+    "id": "audit_2855fbaea0a44adf",
+    "action": "api_key_revoked",
+    "userId": "user_123",
+    "details": {
+      "apiKeyId": "key_f4fc5aa4fe7541ff",
+      "reason": "Rotated"
+    },
+    "timestamp": "2026-05-23T00:18:45.949Z"
+  },
+  {
+    "id": "audit_17c39e170773494d",
+    "action": "api_key_rotated",
+    "userId": "user_123",
+    "details": {
+      "oldKeyId": "key_f4fc5aa4fe7541ff",
+      "newKeyId": "key_44e81ff34f9b4066"
+    },
+    "timestamp": "2026-05-23T00:18:45.952Z"
+  },
+  {
+    "id": "audit_db4c8bb40a154739",
+    "action": "api_key_used",
+    "userId": "user_123",
+    "details": {
+      "apiKeyId": "key_44e81ff34f9b4066"
+    },
+    "timestamp": "2026-05-23T00:18:45.956Z"
+  },
+  {
+    "id": "audit_dfea3cc1ee7e4f66",
+    "action": "api_key_revoked",
+    "userId": "user_123",
+    "details": {
+      "apiKeyId": "key_44e81ff34f9b4066",
+      "reason": "Manual revocation test"
+    },
+    "timestamp": "2026-05-23T00:18:45.959Z"
+  },
+  {
+    "id": "audit_9879f5cdf08c42c6",
+    "action": "api_key_auth_failed",
+    "userId": "user_123",
+    "details": {
+      "apiKeyId": "key_44e81ff34f9b4066",
+      "prefix": "mgr_live_03d7",
+      "reason": "Key has been revoked"
+    },
+    "timestamp": "2026-05-23T00:18:45.961Z"
+  },
+  {
+    "id": "audit_082c3a7b7be941b9",
+    "action": "api_key_created",
+    "userId": "user_123",
+    "details": {
+      "apiKeyId": "key_90792ea30e49426a"
+    },
+    "timestamp": "2026-05-23T00:21:21.029Z"
+  },
+  {
+    "id": "audit_ff3db911610a4339",
+    "action": "api_key_used",
+    "userId": "user_123",
+    "details": {
+      "apiKeyId": "key_90792ea30e49426a"
+    },
+    "timestamp": "2026-05-23T00:21:21.034Z"
+  },
+  {
+    "id": "audit_89a1dc184d574f53",
+    "action": "api_key_auth_failed",
+    "userId": "user_123",
+    "details": {
+      "apiKeyId": "key_90792ea30e49426a",
+      "prefix": "mgr_live_ea5d",
+      "reason": "Missing required scope: admin:*"
+    },
+    "timestamp": "2026-05-23T00:21:21.036Z"
+  },
+  {
+    "id": "audit_5e2e44a041104312",
+    "action": "api_key_auth_failed",
+    "details": {
+      "prefix": "mgr_live_ea5d",
+      "reason": "Invalid API key credentials"
+    },
+    "timestamp": "2026-05-23T00:21:21.039Z"
+  },
+  {
+    "id": "audit_79d7d5adbc864359",
+    "action": "api_key_revoked",
+    "userId": "user_123",
+    "details": {
+      "apiKeyId": "key_90792ea30e49426a",
+      "reason": "Rotated"
+    },
+    "timestamp": "2026-05-23T00:21:21.042Z"
+  },
+  {
+    "id": "audit_be71f14fe9144e32",
+    "action": "api_key_rotated",
+    "userId": "user_123",
+    "details": {
+      "oldKeyId": "key_90792ea30e49426a",
+      "newKeyId": "key_8a58c5ce1e5346ba"
+    },
+    "timestamp": "2026-05-23T00:21:21.045Z"
+  },
+  {
+    "id": "audit_0196ce309b4c4da2",
+    "action": "api_key_used",
+    "userId": "user_123",
+    "details": {
+      "apiKeyId": "key_8a58c5ce1e5346ba"
+    },
+    "timestamp": "2026-05-23T00:21:21.050Z"
+  },
+  {
+    "id": "audit_a7973a4cf94644a9",
+    "action": "api_key_revoked",
+    "userId": "user_123",
+    "details": {
+      "apiKeyId": "key_8a58c5ce1e5346ba",
+      "reason": "Manual revocation test"
+    },
+    "timestamp": "2026-05-23T00:21:21.053Z"
+  },
+  {
+    "id": "audit_56b11e7aa44f420f",
+    "action": "api_key_auth_failed",
+    "userId": "user_123",
+    "details": {
+      "apiKeyId": "key_8a58c5ce1e5346ba",
+      "prefix": "mgr_live_5edb",
+      "reason": "Key has been revoked"
+    },
+    "timestamp": "2026-05-23T00:21:21.055Z"
+  },
+  {
+    "id": "audit_e7250a1b9cbb4bda",
+    "action": "api_key_created",
+    "userId": "user_123",
+    "details": {
+      "apiKeyId": "key_6d9a490b0f9e4933"
+    },
+    "timestamp": "2026-05-23T00:36:00.705Z"
+  },
+  {
+    "id": "audit_5365bd6293f44ba6",
+    "action": "api_key_used",
+    "userId": "user_123",
+    "details": {
+      "apiKeyId": "key_6d9a490b0f9e4933"
+    },
+    "timestamp": "2026-05-23T00:36:00.712Z"
+  },
+  {
+    "id": "audit_d40bb649f77845a3",
+    "action": "api_key_auth_failed",
+    "userId": "user_123",
+    "details": {
+      "apiKeyId": "key_6d9a490b0f9e4933",
+      "prefix": "mgr_live_f2ed",
+      "reason": "Missing required scope: admin:*"
+    },
+    "timestamp": "2026-05-23T00:36:00.714Z"
+  },
+  {
+    "id": "audit_81f73a789cac4203",
+    "action": "api_key_auth_failed",
+    "details": {
+      "prefix": "mgr_live_f2ed",
+      "reason": "Invalid API key credentials"
+    },
+    "timestamp": "2026-05-23T00:36:00.716Z"
+  },
+  {
+    "id": "audit_2500d79a8cb64f14",
+    "action": "api_key_revoked",
+    "userId": "user_123",
+    "details": {
+      "apiKeyId": "key_6d9a490b0f9e4933",
+      "reason": "Rotated"
+    },
+    "timestamp": "2026-05-23T00:36:00.720Z"
+  },
+  {
+    "id": "audit_b15aa8fceeb949ed",
+    "action": "api_key_rotated",
+    "userId": "user_123",
+    "details": {
+      "oldKeyId": "key_6d9a490b0f9e4933",
+      "newKeyId": "key_ec67082140d24153"
+    },
+    "timestamp": "2026-05-23T00:36:00.723Z"
+  },
+  {
+    "id": "audit_fe09e0135b3a44ca",
+    "action": "api_key_used",
+    "userId": "user_123",
+    "details": {
+      "apiKeyId": "key_ec67082140d24153"
+    },
+    "timestamp": "2026-05-23T00:36:00.728Z"
+  },
+  {
+    "id": "audit_3db2ead130244065",
+    "action": "api_key_revoked",
+    "userId": "user_123",
+    "details": {
+      "apiKeyId": "key_ec67082140d24153",
+      "reason": "Manual revocation test"
+    },
+    "timestamp": "2026-05-23T00:36:00.731Z"
+  },
+  {
+    "id": "audit_2791a5b285904a33",
+    "action": "api_key_auth_failed",
+    "userId": "user_123",
+    "details": {
+      "apiKeyId": "key_ec67082140d24153",
+      "prefix": "mgr_live_980d",
+      "reason": "Key has been revoked"
+    },
+    "timestamp": "2026-05-23T00:36:00.733Z"
+  },
+  {
+    "id": "audit_751716bb2f434799",
+    "action": "gpu_pod_created",
+    "userId": "admin",
+    "details": {
+      "podId": "k8w9j2e2xvcdv6",
+      "gpuType": "NVIDIA GeForce RTX 4090"
+    },
+    "timestamp": "2026-05-23T01:15:46.243Z"
+  },
+  {
+    "id": "audit_4a97e5f0258d4147",
+    "action": "job_created",
+    "userId": "admin",
+    "jobId": "job_7cf48d7934b24427",
+    "details": {
+      "modelId": "wan2.2-ti2v-5b",
+      "priority": "medium"
+    },
+    "timestamp": "2026-05-23T02:44:28.512Z"
+  },
+  {
+    "id": "audit_792ab8dda26e4df1",
+    "action": "gpu_start_initiated",
+    "userId": "admin",
+    "jobId": "job_7cf48d7934b24427",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "k8w9j2e2xvcdv6"
+    },
+    "timestamp": "2026-05-23T02:44:29.593Z"
+  },
+  {
+    "id": "audit_6dfe1398073c446b",
+    "action": "job_created",
+    "userId": "admin",
+    "jobId": "job_cb15af3a15c74878",
+    "details": {
+      "modelId": "wan2.2-ti2v-5b",
+      "priority": "medium"
+    },
+    "timestamp": "2026-05-23T02:45:14.798Z"
+  },
+  {
+    "id": "audit_e2af22f71c4e4d37",
+    "action": "gpu_start_initiated",
+    "userId": "admin",
+    "jobId": "job_cb15af3a15c74878",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "k8w9j2e2xvcdv6"
+    },
+    "timestamp": "2026-05-23T02:45:15.821Z"
+  },
+  {
+    "id": "audit_ff1141ed40704cb2",
+    "action": "job_failed",
+    "userId": "admin",
+    "jobId": "job_cb15af3a15c74878",
+    "details": {
+      "error": "ComfyUI prompt submission failed with HTTP 400: {\"error\": {\"type\": \"missing_node_type\", \"message\": \"Node 'WanVideoResolutionNode' not found. The custom node may not be installed.\", \"details\": \"Node ID '#15'\", \"extra_info\": {\"node_id\": \"15\", \"class_type\": \"WanVideoResolutionNode\", \"node_title\": \"WanVideoResolutionNode\"}}, \"node_errors\": {}}"
+    },
+    "timestamp": "2026-05-23T02:45:18.684Z"
+  },
+  {
+    "id": "audit_d46398b0bddb4daf",
+    "action": "gpu_stop_initiated",
+    "userId": "admin",
+    "jobId": "job_cb15af3a15c74878",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "k8w9j2e2xvcdv6"
+    },
+    "timestamp": "2026-05-23T02:45:18.686Z"
+  },
+  {
+    "id": "audit_631c1baea2ef4a8c",
+    "action": "gpu_start_initiated",
+    "userId": "admin",
+    "jobId": "job_cb15af3a15c74878",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "k8w9j2e2xvcdv6"
+    },
+    "timestamp": "2026-05-23T02:45:19.854Z"
+  },
+  {
+    "id": "audit_b23bef4431854bfc",
+    "action": "job_failed",
+    "userId": "admin",
+    "jobId": "job_cb15af3a15c74878",
+    "details": {
+      "error": "ComfyUI prompt submission failed with HTTP 400: {\"error\": {\"type\": \"missing_node_type\", \"message\": \"Node 'WanVideoResolutionNode' not found. The custom node may not be installed.\", \"details\": \"Node ID '#15'\", \"extra_info\": {\"node_id\": \"15\", \"class_type\": \"WanVideoResolutionNode\", \"node_title\": \"WanVideoResolutionNode\"}}, \"node_errors\": {}}"
+    },
+    "timestamp": "2026-05-23T02:45:34.505Z"
+  },
+  {
+    "id": "audit_3e76732f29db4f87",
+    "action": "gpu_stop_initiated",
+    "userId": "admin",
+    "jobId": "job_cb15af3a15c74878",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "k8w9j2e2xvcdv6"
+    },
+    "timestamp": "2026-05-23T02:45:34.507Z"
+  },
+  {
+    "id": "audit_f8b6da274d284f1b",
+    "action": "gpu_start_initiated",
+    "userId": "admin",
+    "jobId": "job_cb15af3a15c74878",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "k8w9j2e2xvcdv6"
+    },
+    "timestamp": "2026-05-23T02:45:35.908Z"
+  },
+  {
+    "id": "audit_c0233887400b4810",
+    "action": "job_failed",
+    "userId": "admin",
+    "jobId": "job_cb15af3a15c74878",
+    "details": {
+      "error": "ComfyUI prompt submission failed with HTTP 400: {\"error\": {\"type\": \"missing_node_type\", \"message\": \"Node 'WanVideoResolutionNode' not found. The custom node may not be installed.\", \"details\": \"Node ID '#15'\", \"extra_info\": {\"node_id\": \"15\", \"class_type\": \"WanVideoResolutionNode\", \"node_title\": \"WanVideoResolutionNode\"}}, \"node_errors\": {}}"
+    },
+    "timestamp": "2026-05-23T02:45:38.294Z"
+  },
+  {
+    "id": "audit_8f5e7e8d37704788",
+    "action": "gpu_stop_initiated",
+    "userId": "admin",
+    "jobId": "job_cb15af3a15c74878",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "k8w9j2e2xvcdv6"
+    },
+    "timestamp": "2026-05-23T02:45:38.296Z"
+  },
+  {
+    "id": "audit_48e6c0c8eb274a64",
+    "action": "credits_reserved",
+    "userId": "admin-user",
+    "jobId": "job_763a791826884f60",
+    "details": {
+      "credits": 10,
+      "newBalance": 490
+    },
+    "timestamp": "2026-05-23T03:02:12.271Z"
+  },
+  {
+    "id": "audit_44eb5a7b09c04872",
+    "action": "job_created",
+    "userId": "admin-user",
+    "jobId": "job_763a791826884f60",
+    "details": {
+      "modelId": "wan2.2-ti2v-5b",
+      "priority": "medium"
+    },
+    "timestamp": "2026-05-23T03:02:12.274Z"
+  },
+  {
+    "id": "audit_13944ad25891470e",
+    "action": "gpu_start_initiated",
+    "userId": "admin-user",
+    "jobId": "job_763a791826884f60",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "k8w9j2e2xvcdv6"
+    },
+    "timestamp": "2026-05-23T03:02:13.119Z"
+  },
+  {
+    "id": "audit_b1de7fd320f9474b",
+    "action": "credits_refunded",
+    "userId": "admin-user",
+    "jobId": "job_763a791826884f60",
+    "details": {
+      "credits": 10,
+      "newBalance": 500
+    },
+    "timestamp": "2026-05-23T03:03:04.821Z"
+  },
+  {
+    "id": "audit_a14a61ebf50744e6",
+    "action": "credits_reserved",
+    "userId": "admin-user",
+    "jobId": "job_79769bdb6be2405d",
+    "details": {
+      "credits": 10,
+      "newBalance": 490
+    },
+    "timestamp": "2026-05-23T03:03:25.132Z"
+  },
+  {
+    "id": "audit_9401b91f1f9f46fe",
+    "action": "job_created",
+    "userId": "admin-user",
+    "jobId": "job_79769bdb6be2405d",
+    "details": {
+      "modelId": "wan2.2-ti2v-5b",
+      "priority": "medium"
+    },
+    "timestamp": "2026-05-23T03:03:25.136Z"
+  },
+  {
+    "id": "audit_862480f863134738",
+    "action": "gpu_start_initiated",
+    "userId": "admin-user",
+    "jobId": "job_79769bdb6be2405d",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "k8w9j2e2xvcdv6"
+    },
+    "timestamp": "2026-05-23T03:03:26.948Z"
+  },
+  {
+    "id": "audit_11aa36c192654b31",
+    "action": "job_completed",
+    "userId": "admin-user",
+    "jobId": "job_79769bdb6be2405d",
+    "details": {
+      "outputFile": "wan_test_00001_.mp4",
+      "actualCostUsd": 0.0273
+    },
+    "timestamp": "2026-05-23T03:05:38.962Z"
+  },
+  {
+    "id": "audit_aa62887b9bb048c9",
+    "action": "gpu_stop_initiated",
+    "userId": "admin-user",
+    "jobId": "job_79769bdb6be2405d",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "k8w9j2e2xvcdv6"
+    },
+    "timestamp": "2026-05-23T03:05:38.964Z"
+  },
+  {
+    "id": "audit_e2a99b4779ec4004",
+    "action": "credits_finalised",
+    "userId": "admin-user",
+    "jobId": "job_79769bdb6be2405d",
+    "details": {
+      "credits": 10
+    },
+    "timestamp": "2026-05-23T03:05:38.984Z"
+  },
+  {
+    "id": "audit_29e19a23dcd14cfd",
+    "action": "watchdog_auto_shutdown",
+    "userId": "system",
+    "details": {
+      "idleDurationSeconds": 300.094
+    },
+    "timestamp": "2026-05-23T03:11:04.978Z"
+  },
+  {
+    "id": "audit_f300987f3b93454f",
+    "action": "watchdog_auto_shutdown",
+    "userId": "system",
+    "details": {
+      "idleDurationSeconds": 300.043
+    },
+    "timestamp": "2026-05-23T03:16:35.018Z"
+  },
+  {
+    "id": "audit_7bafbdac7ff645d9",
+    "action": "credits_reserved",
+    "userId": "admin-user",
+    "jobId": "job_424bf155eca74813",
+    "details": {
+      "credits": 10,
+      "newBalance": 479.9727
+    },
+    "timestamp": "2026-05-23T03:20:10.678Z"
+  },
+  {
+    "id": "audit_92386d6c0379419b",
+    "action": "job_created",
+    "userId": "admin-user",
+    "jobId": "job_424bf155eca74813",
+    "details": {
+      "modelId": "wan2.2-ti2v-5b",
+      "priority": "medium"
+    },
+    "timestamp": "2026-05-23T03:20:10.682Z"
+  },
+  {
+    "id": "audit_06ca75197a214ef0",
+    "action": "job_failed",
+    "userId": "admin-user",
+    "jobId": "job_424bf155eca74813",
+    "details": {
+      "error": "Authentication failed: Invalid RunPod API Key. Verify your API key in settings. Unauthorized"
+    },
+    "timestamp": "2026-05-23T03:20:13.538Z"
+  },
+  {
+    "id": "audit_b0d38a2d034c40da",
+    "action": "job_failed",
+    "userId": "admin-user",
+    "jobId": "job_424bf155eca74813",
+    "details": {
+      "error": "Authentication failed: Invalid RunPod API Key. Verify your API key in settings. Unauthorized"
+    },
+    "timestamp": "2026-05-23T03:20:16.713Z"
+  },
+  {
+    "id": "audit_542235e05e364fce",
+    "action": "job_failed",
+    "userId": "admin-user",
+    "jobId": "job_424bf155eca74813",
+    "details": {
+      "error": "Authentication failed: Invalid RunPod API Key. Verify your API key in settings. Unauthorized"
+    },
+    "timestamp": "2026-05-23T03:20:18.737Z"
+  },
+  {
+    "id": "audit_72e44e217de749ab",
+    "action": "credits_refunded",
+    "userId": "admin-user",
+    "jobId": "job_424bf155eca74813",
+    "details": {
+      "credits": 10,
+      "newBalance": 489.9727
+    },
+    "timestamp": "2026-05-23T03:20:19.124Z"
+  },
+  {
+    "id": "audit_4b586f75902f4d42",
+    "action": "credits_reserved",
+    "userId": "admin-user",
+    "jobId": "job_c3a8446526ae40f4",
+    "details": {
+      "credits": 10,
+      "newBalance": 479.9727
+    },
+    "timestamp": "2026-05-23T03:41:17.661Z"
+  },
+  {
+    "id": "audit_de4a9bafa8994168",
+    "action": "job_created",
+    "userId": "admin-user",
+    "jobId": "job_c3a8446526ae40f4",
+    "details": {
+      "modelId": "wan2.2-ti2v-5b",
+      "priority": "medium"
+    },
+    "timestamp": "2026-05-23T03:41:17.664Z"
+  },
+  {
+    "id": "audit_460546f355f54d7c",
+    "action": "gpu_start_initiated",
+    "userId": "admin-user",
+    "jobId": "job_c3a8446526ae40f4",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "k8w9j2e2xvcdv6"
+    },
+    "timestamp": "2026-05-23T03:41:20.611Z"
+  },
+  {
+    "id": "audit_c294dfb6d2124784",
+    "action": "credits_refunded",
+    "userId": "admin-user",
+    "jobId": "job_c3a8446526ae40f4",
+    "details": {
+      "credits": 10,
+      "newBalance": 489.9727
+    },
+    "timestamp": "2026-05-23T03:43:07.544Z"
+  },
+  {
+    "id": "audit_d70bf78a096949e0",
+    "action": "credits_reserved",
+    "userId": "admin-user",
+    "jobId": "job_20f2c08d06864430",
+    "details": {
+      "credits": 10,
+      "newBalance": 479.9727
+    },
+    "timestamp": "2026-05-23T03:43:24.513Z"
+  },
+  {
+    "id": "audit_2b5762bf4b854819",
+    "action": "job_created",
+    "userId": "admin-user",
+    "jobId": "job_20f2c08d06864430",
+    "details": {
+      "modelId": "wan2.2-ti2v-5b",
+      "priority": "medium"
+    },
+    "timestamp": "2026-05-23T03:43:24.516Z"
+  },
+  {
+    "id": "audit_70ee8260c9ee4d9b",
+    "action": "gpu_start_initiated",
+    "userId": "admin-user",
+    "jobId": "job_20f2c08d06864430",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "k8w9j2e2xvcdv6"
+    },
+    "timestamp": "2026-05-23T03:43:27.679Z"
+  },
+  {
+    "id": "audit_84eb416a46b74361",
+    "action": "job_completed",
+    "userId": "admin-user",
+    "jobId": "job_20f2c08d06864430",
+    "details": {
+      "outputFile": "wan_test_00002_.mp4",
+      "actualCostUsd": 0.0386
+    },
+    "timestamp": "2026-05-23T03:46:33.027Z"
+  },
+  {
+    "id": "audit_86ed876d469e4569",
+    "action": "gpu_stop_initiated",
+    "userId": "admin-user",
+    "jobId": "job_20f2c08d06864430",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "k8w9j2e2xvcdv6"
+    },
+    "timestamp": "2026-05-23T03:46:34.962Z"
+  },
+  {
+    "id": "audit_21403be33afd46fd",
+    "action": "credits_finalised",
+    "userId": "admin-user",
+    "jobId": "job_20f2c08d06864430",
+    "details": {
+      "credits": 10
+    },
+    "timestamp": "2026-05-23T03:46:34.966Z"
+  },
+  {
+    "id": "audit_23b598efe2674e03",
+    "action": "credits_reserved",
+    "userId": "admin-user",
+    "jobId": "job_2166e18bdbfa47ed",
+    "details": {
+      "credits": 10,
+      "newBalance": 469.9341
+    },
+    "timestamp": "2026-05-23T04:31:09.180Z"
+  },
+  {
+    "id": "audit_fee0e467c56c4ad4",
+    "action": "job_created",
+    "userId": "admin-user",
+    "jobId": "job_2166e18bdbfa47ed",
+    "details": {
+      "modelId": "wan2.2-ti2v-5b",
+      "priority": "medium"
+    },
+    "timestamp": "2026-05-23T04:31:09.184Z"
+  },
+  {
+    "id": "audit_5a0d3cf6ed5c49a9",
+    "action": "gpu_start_initiated",
+    "userId": "admin-user",
+    "jobId": "job_2166e18bdbfa47ed",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "6g2yx32pnvizsm"
+    },
+    "timestamp": "2026-05-23T04:31:12.456Z"
+  },
+  {
+    "id": "audit_2c915ff5e3a44a53",
+    "action": "job_completed",
+    "userId": "admin-user",
+    "jobId": "job_2166e18bdbfa47ed",
+    "details": {
+      "outputFile": "wan_test_00003_.mp4",
+      "actualCostUsd": 0.0319
+    },
+    "timestamp": "2026-05-23T04:33:45.061Z"
+  },
+  {
+    "id": "audit_0e06bf4bb9c54227",
+    "action": "gpu_stop_initiated",
+    "userId": "admin-user",
+    "jobId": "job_2166e18bdbfa47ed",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "6g2yx32pnvizsm"
+    },
+    "timestamp": "2026-05-23T04:33:46.899Z"
+  },
+  {
+    "id": "audit_b8b1484ce8a94b24",
+    "action": "credits_finalised",
+    "userId": "admin-user",
+    "jobId": "job_2166e18bdbfa47ed",
+    "details": {
+      "credits": 10
+    },
+    "timestamp": "2026-05-23T04:33:46.904Z"
+  },
+  {
+    "id": "audit_669d4dd53eb24e93",
+    "action": "credits_reserved",
+    "userId": "local",
+    "jobId": "job_83e77badbe7b4201",
+    "details": {
+      "credits": 10,
+      "newBalance": 999989
+    },
+    "timestamp": "2026-05-23T05:47:11.809Z"
+  },
+  {
+    "id": "audit_c28d24cdcdad4259",
+    "action": "job_created",
+    "userId": "local",
+    "jobId": "job_83e77badbe7b4201",
+    "details": {
+      "modelId": "wan2.2-ti2v-5b",
+      "priority": "medium"
+    },
+    "timestamp": "2026-05-23T05:47:11.816Z"
+  },
+  {
+    "id": "audit_2da4634056574bf1",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_83e77badbe7b4201",
+    "details": {
+      "error": "RunPod API Error (HTTP 500): start pod: There are not enough free GPUs on the host machine to start this pod."
+    },
+    "timestamp": "2026-05-23T05:47:15.064Z"
+  },
+  {
+    "id": "audit_75170442c0244511",
+    "action": "gpu_stop_initiated",
+    "userId": "local",
+    "jobId": "job_83e77badbe7b4201",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "6g2yx32pnvizsm"
+    },
+    "timestamp": "2026-05-23T05:47:16.842Z"
+  },
+  {
+    "id": "audit_53863e8f2c33479d",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_83e77badbe7b4201",
+    "details": {
+      "error": "RunPod API Error (HTTP 500): start pod: There are not enough free GPUs on the host machine to start this pod."
+    },
+    "timestamp": "2026-05-23T05:47:18.053Z"
+  },
+  {
+    "id": "audit_df9b2f6befdd491f",
+    "action": "gpu_stop_initiated",
+    "userId": "local",
+    "jobId": "job_83e77badbe7b4201",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "6g2yx32pnvizsm"
+    },
+    "timestamp": "2026-05-23T05:47:19.047Z"
+  },
+  {
+    "id": "audit_66dd68c6eed84aa6",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_83e77badbe7b4201",
+    "details": {
+      "error": "RunPod API Error (HTTP 500): start pod: There are not enough free GPUs on the host machine to start this pod."
+    },
+    "timestamp": "2026-05-23T05:47:19.949Z"
+  },
+  {
+    "id": "audit_a795f2b3ea5f4932",
+    "action": "gpu_stop_initiated",
+    "userId": "local",
+    "jobId": "job_83e77badbe7b4201",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "6g2yx32pnvizsm"
+    },
+    "timestamp": "2026-05-23T05:47:20.847Z"
+  },
+  {
+    "id": "audit_eab33fc3a0d24b4d",
+    "action": "credits_refunded",
+    "userId": "local",
+    "jobId": "job_83e77badbe7b4201",
+    "details": {
+      "credits": 10,
+      "newBalance": 999999
+    },
+    "timestamp": "2026-05-23T05:47:20.854Z"
+  },
+  {
+    "id": "audit_ea2e112237cb4f11",
+    "action": "credits_reserved",
+    "userId": "local",
+    "jobId": "job_ee0e86b8d76b410e",
+    "details": {
+      "credits": 10,
+      "newBalance": 999989
+    },
+    "timestamp": "2026-05-23T05:48:21.897Z"
+  },
+  {
+    "id": "audit_a2d2653fdb154e1a",
+    "action": "job_created",
+    "userId": "local",
+    "jobId": "job_ee0e86b8d76b410e",
+    "details": {
+      "modelId": "wan2.2-ti2v-5b",
+      "priority": "medium"
+    },
+    "timestamp": "2026-05-23T05:48:21.902Z"
+  },
+  {
+    "id": "audit_72709279ce6c49c6",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_ee0e86b8d76b410e",
+    "details": {
+      "error": "RunPod API Error (HTTP 500): start pod: There are not enough free GPUs on the host machine to start this pod."
+    },
+    "timestamp": "2026-05-23T05:48:25.360Z"
+  },
+  {
+    "id": "audit_d4a14d465a4748df",
+    "action": "gpu_stop_initiated",
+    "userId": "local",
+    "jobId": "job_ee0e86b8d76b410e",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "6g2yx32pnvizsm"
+    },
+    "timestamp": "2026-05-23T05:48:27.222Z"
+  },
+  {
+    "id": "audit_fd78d5f948034449",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_ee0e86b8d76b410e",
+    "details": {
+      "error": "RunPod API Error (HTTP 500): start pod: There are not enough free GPUs on the host machine to start this pod."
+    },
+    "timestamp": "2026-05-23T05:48:28.386Z"
+  },
+  {
+    "id": "audit_6296c19584a040a0",
+    "action": "gpu_stop_initiated",
+    "userId": "local",
+    "jobId": "job_ee0e86b8d76b410e",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "6g2yx32pnvizsm"
+    },
+    "timestamp": "2026-05-23T05:48:29.347Z"
+  },
+  {
+    "id": "audit_edbb1f8f27af4f33",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_ee0e86b8d76b410e",
+    "details": {
+      "error": "RunPod API Error (HTTP 500): start pod: There are not enough free GPUs on the host machine to start this pod."
+    },
+    "timestamp": "2026-05-23T05:48:30.415Z"
+  },
+  {
+    "id": "audit_4e31abddd2724ccd",
+    "action": "gpu_stop_initiated",
+    "userId": "local",
+    "jobId": "job_ee0e86b8d76b410e",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "6g2yx32pnvizsm"
+    },
+    "timestamp": "2026-05-23T05:48:31.296Z"
+  },
+  {
+    "id": "audit_e9eea8cb02bc4de3",
+    "action": "credits_refunded",
+    "userId": "local",
+    "jobId": "job_ee0e86b8d76b410e",
+    "details": {
+      "credits": 10,
+      "newBalance": 999999
+    },
+    "timestamp": "2026-05-23T05:48:31.305Z"
+  },
+  {
+    "id": "audit_7f9b4f0dd3f44386",
+    "action": "credits_reserved",
+    "userId": "local",
+    "jobId": "job_77b0356cf87845e6",
+    "details": {
+      "credits": 10,
+      "newBalance": 999989
+    },
+    "timestamp": "2026-05-23T05:49:12.145Z"
+  },
+  {
+    "id": "audit_3e93e501f2c5436d",
+    "action": "job_created",
+    "userId": "local",
+    "jobId": "job_77b0356cf87845e6",
+    "details": {
+      "modelId": "wan2.2-ti2v-5b",
+      "priority": "medium"
+    },
+    "timestamp": "2026-05-23T05:49:12.149Z"
+  },
+  {
+    "id": "audit_7045bb9495014fb5",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_77b0356cf87845e6",
+    "details": {
+      "error": "RunPod API Error (HTTP 500): start pod: There are not enough free GPUs on the host machine to start this pod."
+    },
+    "timestamp": "2026-05-23T05:49:15.480Z"
+  },
+  {
+    "id": "audit_531cd03d16ca44e5",
+    "action": "gpu_stop_initiated",
+    "userId": "local",
+    "jobId": "job_77b0356cf87845e6",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "6g2yx32pnvizsm"
+    },
+    "timestamp": "2026-05-23T05:49:17.382Z"
+  },
+  {
+    "id": "audit_11404088056343be",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_77b0356cf87845e6",
+    "details": {
+      "error": "RunPod API Error (HTTP 500): start pod: There are not enough free GPUs on the host machine to start this pod."
+    },
+    "timestamp": "2026-05-23T05:49:18.640Z"
+  },
+  {
+    "id": "audit_cd3f362c7a7545c7",
+    "action": "gpu_stop_initiated",
+    "userId": "local",
+    "jobId": "job_77b0356cf87845e6",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "6g2yx32pnvizsm"
+    },
+    "timestamp": "2026-05-23T05:49:19.599Z"
+  },
+  {
+    "id": "audit_3fdecd9752ef42bf",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_77b0356cf87845e6",
+    "details": {
+      "error": "RunPod API Error (HTTP 500): start pod: There are not enough free GPUs on the host machine to start this pod."
+    },
+    "timestamp": "2026-05-23T05:49:20.616Z"
+  },
+  {
+    "id": "audit_54072a99dbe14eef",
+    "action": "gpu_stop_initiated",
+    "userId": "local",
+    "jobId": "job_77b0356cf87845e6",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "6g2yx32pnvizsm"
+    },
+    "timestamp": "2026-05-23T05:49:21.862Z"
+  },
+  {
+    "id": "audit_b4c96102ed0347ee",
+    "action": "credits_refunded",
+    "userId": "local",
+    "jobId": "job_77b0356cf87845e6",
+    "details": {
+      "credits": 10,
+      "newBalance": 999999
+    },
+    "timestamp": "2026-05-23T05:49:21.869Z"
+  },
+  {
+    "id": "audit_f51fb4f824a1485f",
+    "action": "credits_reserved",
+    "userId": "local",
+    "jobId": "job_a299cd95a2754f0a",
+    "details": {
+      "credits": 10,
+      "newBalance": 999989
+    },
+    "timestamp": "2026-05-23T05:50:10.337Z"
+  },
+  {
+    "id": "audit_797e938edb534af4",
+    "action": "job_created",
+    "userId": "local",
+    "jobId": "job_a299cd95a2754f0a",
+    "details": {
+      "modelId": "wan2.2-ti2v-5b",
+      "priority": "medium"
+    },
+    "timestamp": "2026-05-23T05:50:10.342Z"
+  },
+  {
+    "id": "audit_6e2484b9ed224b71",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_a299cd95a2754f0a",
+    "details": {
+      "error": "RunPod API Error (HTTP 500): start pod: There are not enough free GPUs on the host machine to start this pod."
+    },
+    "timestamp": "2026-05-23T05:50:13.927Z"
+  },
+  {
+    "id": "audit_69c5871805414cb4",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_a299cd95a2754f0a",
+    "details": {
+      "error": "RunPod API Error (HTTP 500): start pod: There are not enough free GPUs on the host machine to start this pod."
+    },
+    "timestamp": "2026-05-23T05:50:16.976Z"
+  },
+  {
+    "id": "audit_6b7152a556a6406f",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_a299cd95a2754f0a",
+    "details": {
+      "error": "RunPod API Error (HTTP 500): start pod: There are not enough free GPUs on the host machine to start this pod."
+    },
+    "timestamp": "2026-05-23T05:50:19.033Z"
+  },
+  {
+    "id": "audit_d9f9cc6f50044abf",
+    "action": "credits_refunded",
+    "userId": "local",
+    "jobId": "job_a299cd95a2754f0a",
+    "details": {
+      "credits": 10,
+      "newBalance": 999999
+    },
+    "timestamp": "2026-05-23T05:50:19.796Z"
+  },
+  {
+    "id": "audit_b49b722c28b54963",
+    "action": "credits_reserved",
+    "userId": "local",
+    "jobId": "job_7d8226c801e645e8",
+    "details": {
+      "credits": 10,
+      "newBalance": 999989
+    },
+    "timestamp": "2026-05-23T05:52:15.383Z"
+  },
+  {
+    "id": "audit_3ca7b257d69a4a7a",
+    "action": "job_created",
+    "userId": "local",
+    "jobId": "job_7d8226c801e645e8",
+    "details": {
+      "modelId": "wan2.2-ti2v-5b",
+      "priority": "medium"
+    },
+    "timestamp": "2026-05-23T05:52:15.388Z"
+  },
+  {
+    "id": "audit_a0ae7673988d4e44",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_7d8226c801e645e8",
+    "details": {
+      "error": "RunPod API Error (HTTP 500): start pod: There are not enough free GPUs on the host machine to start this pod."
+    },
+    "timestamp": "2026-05-23T05:52:19.315Z"
+  },
+  {
+    "id": "audit_b871c4f3739042a6",
+    "action": "credits_refunded",
+    "userId": "local",
+    "jobId": "job_7d8226c801e645e8",
+    "details": {
+      "credits": 10,
+      "newBalance": 999999
+    },
+    "timestamp": "2026-05-23T05:52:21.454Z"
+  },
+  {
+    "id": "audit_c564560b87464f1f",
+    "action": "credits_reserved",
+    "userId": "local",
+    "jobId": "job_ef284119f83f470b",
+    "details": {
+      "credits": 10,
+      "newBalance": 999989
+    },
+    "timestamp": "2026-05-23T05:53:14.609Z"
+  },
+  {
+    "id": "audit_1273eb72b9d54ffa",
+    "action": "job_created",
+    "userId": "local",
+    "jobId": "job_ef284119f83f470b",
+    "details": {
+      "modelId": "wan2.2-ti2v-5b",
+      "priority": "medium"
+    },
+    "timestamp": "2026-05-23T05:53:14.613Z"
+  },
+  {
+    "id": "audit_dac36d40a0414ae8",
+    "action": "credits_finalised",
+    "userId": "local",
+    "jobId": "job_ef284119f83f470b",
+    "details": {
+      "credits": 10
+    },
+    "timestamp": "2026-05-23T05:53:18.783Z"
+  },
+  {
+    "id": "audit_6ed3f88862ac4c16",
+    "action": "credits_reserved",
+    "userId": "local",
+    "jobId": "job_d19306eb74044570",
+    "details": {
+      "credits": 10,
+      "newBalance": 999979
+    },
+    "timestamp": "2026-05-23T05:53:35.615Z"
+  },
+  {
+    "id": "audit_7f15545be5824d46",
+    "action": "job_created",
+    "userId": "local",
+    "jobId": "job_d19306eb74044570",
+    "details": {
+      "modelId": "wan2.2-ti2v-5b",
+      "priority": "medium"
+    },
+    "timestamp": "2026-05-23T05:53:35.619Z"
+  },
+  {
+    "id": "audit_d480e89346ce4fa3",
+    "action": "credits_finalised",
+    "userId": "local",
+    "jobId": "job_d19306eb74044570",
+    "details": {
+      "credits": 10
+    },
+    "timestamp": "2026-05-23T05:53:40.616Z"
+  },
+  {
+    "id": "audit_21d822ea3ee948ca",
+    "action": "credits_reserved",
+    "userId": "local",
+    "jobId": "job_4f4db447dab342a5",
+    "details": {
+      "credits": 10,
+      "newBalance": 999969
+    },
+    "timestamp": "2026-05-23T05:53:48.846Z"
+  },
+  {
+    "id": "audit_d99f254d3814480f",
+    "action": "job_created",
+    "userId": "local",
+    "jobId": "job_4f4db447dab342a5",
+    "details": {
+      "modelId": "wan2.2-ti2v-5b",
+      "priority": "medium"
+    },
+    "timestamp": "2026-05-23T05:53:48.850Z"
+  },
+  {
+    "id": "audit_a837cd343a9043a4",
+    "action": "credits_finalised",
+    "userId": "local",
+    "jobId": "job_4f4db447dab342a5",
+    "details": {
+      "credits": 10
+    },
+    "timestamp": "2026-05-23T05:53:52.680Z"
+  },
+  {
+    "id": "audit_e53087c63e84453b",
+    "action": "credits_reserved",
+    "userId": "local",
+    "jobId": "job_52bf695d723441f2",
+    "details": {
+      "credits": 10,
+      "newBalance": 999959
+    },
+    "timestamp": "2026-05-23T06:02:01.336Z"
+  },
+  {
+    "id": "audit_9f46587c2a88414d",
+    "action": "job_created",
+    "userId": "local",
+    "jobId": "job_52bf695d723441f2",
+    "details": {
+      "modelId": "wan2.2-ti2v-5b",
+      "priority": "medium"
+    },
+    "timestamp": "2026-05-23T06:02:01.341Z"
+  },
+  {
+    "id": "audit_1bd318d707ab4e84",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_52bf695d723441f2",
+    "details": {
+      "error": "RunPod API Error (HTTP 500): start pod: pod not found"
+    },
+    "timestamp": "2026-05-23T06:02:02.542Z"
+  },
+  {
+    "id": "audit_73012c83004c426d",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_52bf695d723441f2",
+    "details": {
+      "error": "RunPod API Error (HTTP 500): start pod: pod not found"
+    },
+    "timestamp": "2026-05-23T06:02:06.560Z"
+  },
+  {
+    "id": "audit_b3ea778b420d4333",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_52bf695d723441f2",
+    "details": {
+      "error": "RunPod API Error (HTTP 500): start pod: pod not found"
+    },
+    "timestamp": "2026-05-23T06:02:08.551Z"
+  },
+  {
+    "id": "audit_fddcc5175c294f46",
+    "action": "credits_refunded",
+    "userId": "local",
+    "jobId": "job_52bf695d723441f2",
+    "details": {
+      "credits": 10,
+      "newBalance": 999969
+    },
+    "timestamp": "2026-05-23T06:02:09.224Z"
+  },
+  {
+    "id": "audit_8fa0de52a07640da",
+    "action": "credits_reserved",
+    "userId": "local",
+    "jobId": "job_05ec1d85a2244655",
+    "details": {
+      "credits": 10,
+      "newBalance": 999959
+    },
+    "timestamp": "2026-05-23T06:06:47.155Z"
+  },
+  {
+    "id": "audit_e79df205c46141ba",
+    "action": "job_created",
+    "userId": "local",
+    "jobId": "job_05ec1d85a2244655",
+    "details": {
+      "modelId": "wan2.2-ti2v-5b",
+      "priority": "medium"
+    },
+    "timestamp": "2026-05-23T06:06:47.160Z"
+  },
+  {
+    "id": "audit_97d6b6aef5d54742",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_05ec1d85a2244655",
+    "details": {
+      "error": "RunPod API Error (HTTP 500): start pod: pod not found"
+    },
+    "timestamp": "2026-05-23T06:06:49.805Z"
+  },
+  {
+    "id": "audit_72e537ffc590439e",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_05ec1d85a2244655",
+    "details": {
+      "error": "RunPod API Error (HTTP 500): start pod: pod not found"
+    },
+    "timestamp": "2026-05-23T06:06:53.012Z"
+  },
+  {
+    "id": "audit_82e25ec5299b4c28",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_05ec1d85a2244655",
+    "details": {
+      "error": "RunPod API Error (HTTP 500): start pod: pod not found"
+    },
+    "timestamp": "2026-05-23T06:06:55.034Z"
+  },
+  {
+    "id": "audit_266df9fb8bf9404c",
+    "action": "credits_refunded",
+    "userId": "local",
+    "jobId": "job_05ec1d85a2244655",
+    "details": {
+      "credits": 10,
+      "newBalance": 999969
+    },
+    "timestamp": "2026-05-23T06:06:55.664Z"
+  },
+  {
+    "id": "audit_f6d12850689d43a2",
+    "action": "credits_reserved",
+    "userId": "local",
+    "jobId": "job_883b82fe15d041ed",
+    "details": {
+      "credits": 10,
+      "newBalance": 999959
+    },
+    "timestamp": "2026-05-23T06:11:35.705Z"
+  },
+  {
+    "id": "audit_ed12c41ce6404def",
+    "action": "job_created",
+    "userId": "local",
+    "jobId": "job_883b82fe15d041ed",
+    "details": {
+      "modelId": "wan2.2-ti2v-5b",
+      "priority": "medium"
+    },
+    "timestamp": "2026-05-23T06:11:35.709Z"
+  },
+  {
+    "id": "audit_1c36e4dcb4df4c75",
+    "action": "gpu_start_initiated",
+    "userId": "local",
+    "jobId": "job_883b82fe15d041ed",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "pb5pse5fl1f5wc"
+    },
+    "timestamp": "2026-05-23T06:11:38.670Z"
+  },
+  {
+    "id": "audit_ac00571345394639",
+    "action": "credits_reserved",
+    "userId": "local",
+    "jobId": "job_f32655c9bf6045ab",
+    "details": {
+      "credits": 10,
+      "newBalance": 999949
+    },
+    "timestamp": "2026-05-23T06:14:13.334Z"
+  },
+  {
+    "id": "audit_c572531c4e43458e",
+    "action": "job_created",
+    "userId": "local",
+    "jobId": "job_f32655c9bf6045ab",
+    "details": {
+      "modelId": "wan2.2-ti2v-5b",
+      "priority": "medium"
+    },
+    "timestamp": "2026-05-23T06:14:13.338Z"
+  },
+  {
+    "id": "audit_dcca159b842544b7",
+    "action": "gpu_start_initiated",
+    "userId": "local",
+    "jobId": "job_f32655c9bf6045ab",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "pb5pse5fl1f5wc"
+    },
+    "timestamp": "2026-05-23T06:14:17.038Z"
+  },
+  {
+    "id": "audit_f045cd049f96417e",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_f32655c9bf6045ab",
+    "details": {
+      "error": "Output video file not found in ComfyUI history for request: d37d18c5-cd08-4583-80b8-2babbfe25066"
+    },
+    "timestamp": "2026-05-23T06:16:36.929Z"
+  },
+  {
+    "id": "audit_f58a99b956934ab8",
+    "action": "gpu_stop_initiated",
+    "userId": "local",
+    "jobId": "job_f32655c9bf6045ab",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "pb5pse5fl1f5wc"
+    },
+    "timestamp": "2026-05-23T06:16:37.991Z"
+  },
+  {
+    "id": "audit_d387fee4916a4536",
+    "action": "gpu_start_initiated",
+    "userId": "local",
+    "jobId": "job_f32655c9bf6045ab",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "pb5pse5fl1f5wc"
+    },
+    "timestamp": "2026-05-23T06:16:40.094Z"
+  },
+  {
+    "id": "audit_6365bb2144a74990",
+    "action": "job_completed",
+    "userId": "local",
+    "jobId": "job_883b82fe15d041ed",
+    "details": {
+      "outputFile": "wan_test_00004_.mp4",
+      "actualCostUsd": 0.0625
+    },
+    "timestamp": "2026-05-23T06:16:40.792Z"
+  },
+  {
+    "id": "audit_04b8f24e35504614",
+    "action": "gpu_stop_initiated",
+    "userId": "local",
+    "jobId": "job_883b82fe15d041ed",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "pb5pse5fl1f5wc"
+    },
+    "timestamp": "2026-05-23T06:16:42.835Z"
+  },
+  {
+    "id": "audit_e6ce05041f804675",
+    "action": "credits_finalised",
+    "userId": "local",
+    "jobId": "job_883b82fe15d041ed",
+    "details": {
+      "credits": 10
+    },
+    "timestamp": "2026-05-23T06:16:42.839Z"
+  },
+  {
+    "id": "audit_b29f6cd3cf5b4980",
+    "action": "credits_reserved",
+    "userId": "local",
+    "jobId": "job_a5cc91b766bd42dd",
+    "details": {
+      "credits": 10,
+      "newBalance": 999938.9375
+    },
+    "timestamp": "2026-05-23T06:17:19.801Z"
+  },
+  {
+    "id": "audit_9adbb763b40e423e",
+    "action": "job_created",
+    "userId": "local",
+    "jobId": "job_a5cc91b766bd42dd",
+    "details": {
+      "modelId": "wan2.2-ti2v-5b",
+      "priority": "medium"
+    },
+    "timestamp": "2026-05-23T06:17:19.806Z"
+  },
+  {
+    "id": "audit_cdca9a91a26b4943",
+    "action": "gpu_start_initiated",
+    "userId": "local",
+    "jobId": "job_a5cc91b766bd42dd",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "pb5pse5fl1f5wc"
+    },
+    "timestamp": "2026-05-23T06:17:23.215Z"
+  },
+  {
+    "id": "audit_9940d05170e849ea",
+    "action": "job_completed",
+    "userId": "local",
+    "jobId": "job_a5cc91b766bd42dd",
+    "details": {
+      "outputFile": "wan_test_00005_.mp4",
+      "actualCostUsd": 0.0695
+    },
+    "timestamp": "2026-05-23T06:22:58.262Z"
+  },
+  {
+    "id": "audit_475bd3b0f6d04b89",
+    "action": "gpu_stop_initiated",
+    "userId": "local",
+    "jobId": "job_a5cc91b766bd42dd",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "pb5pse5fl1f5wc"
+    },
+    "timestamp": "2026-05-23T06:23:00.171Z"
+  },
+  {
+    "id": "audit_7b55622e5a994308",
+    "action": "credits_finalised",
+    "userId": "local",
+    "jobId": "job_a5cc91b766bd42dd",
+    "details": {
+      "credits": 10
+    },
+    "timestamp": "2026-05-23T06:23:00.175Z"
+  },
+  {
+    "id": "audit_58edb5bc9cac41b3",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_f32655c9bf6045ab",
+    "details": {
+      "error": "Failed to fetch history from ComfyUI (HTTP 502)"
+    },
+    "timestamp": "2026-05-23T06:23:00.614Z"
+  },
+  {
+    "id": "audit_dd1186d7afe14b5e",
+    "action": "gpu_stop_initiated",
+    "userId": "local",
+    "jobId": "job_f32655c9bf6045ab",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "pb5pse5fl1f5wc"
+    },
+    "timestamp": "2026-05-23T06:23:01.540Z"
+  },
+  {
+    "id": "audit_c6f10e4acbaa46ec",
+    "action": "gpu_start_initiated",
+    "userId": "local",
+    "jobId": "job_f32655c9bf6045ab",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "pb5pse5fl1f5wc"
+    },
+    "timestamp": "2026-05-23T06:23:03.951Z"
+  },
+  {
+    "id": "audit_c4b6e93b7ee1494f",
+    "action": "job_completed",
+    "userId": "local",
+    "jobId": "job_f32655c9bf6045ab",
+    "details": {
+      "outputFile": "wan_test_00006_.mp4",
+      "actualCostUsd": 0.0707
+    },
+    "timestamp": "2026-05-23T06:28:46.150Z"
+  },
+  {
+    "id": "audit_a6a7d0d041914f75",
+    "action": "gpu_stop_initiated",
+    "userId": "local",
+    "jobId": "job_f32655c9bf6045ab",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "pb5pse5fl1f5wc"
+    },
+    "timestamp": "2026-05-23T06:28:48.074Z"
+  },
+  {
+    "id": "audit_04cc8587cb234676",
+    "action": "credits_finalised",
+    "userId": "local",
+    "jobId": "job_f32655c9bf6045ab",
+    "details": {
+      "credits": 10
+    },
+    "timestamp": "2026-05-23T06:28:48.078Z"
+  },
+  {
+    "id": "audit_0dd7285bbe75470e",
+    "action": "credits_reserved",
+    "userId": "local",
+    "jobId": "job_ae3f828deb7f40de",
+    "details": {
+      "credits": 10,
+      "newBalance": 999928.7973
+    },
+    "timestamp": "2026-05-24T16:37:45.942Z"
+  },
+  {
+    "id": "audit_206950f32c8141f1",
+    "action": "job_created",
+    "userId": "local",
+    "jobId": "job_ae3f828deb7f40de",
+    "details": {
+      "modelId": "wan2.2-ti2v-5b",
+      "priority": "medium"
+    },
+    "timestamp": "2026-05-24T16:37:45.979Z"
+  },
+  {
+    "id": "audit_a0435c319052490d",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_ae3f828deb7f40de",
+    "details": {
+      "error": "RunPod API Error (HTTP 500): start pod: There are not enough free GPUs on the host machine to start this pod."
+    },
+    "timestamp": "2026-05-24T16:37:49.356Z"
+  },
+  {
+    "id": "audit_c1af4b756743411d",
+    "action": "gpu_stop_initiated",
+    "userId": "local",
+    "jobId": "job_ae3f828deb7f40de",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "iekamfpjo8bjeg"
+    },
+    "timestamp": "2026-05-24T16:37:51.551Z"
+  },
+  {
+    "id": "audit_30af6c6f58964277",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_ae3f828deb7f40de",
+    "details": {
+      "error": "RunPod API Error (HTTP 500): start pod: There are not enough free GPUs on the host machine to start this pod."
+    },
+    "timestamp": "2026-05-24T16:37:55.301Z"
+  },
+  {
+    "id": "audit_5c7d5a65c9874697",
+    "action": "gpu_stop_initiated",
+    "userId": "local",
+    "jobId": "job_ae3f828deb7f40de",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "iekamfpjo8bjeg"
+    },
+    "timestamp": "2026-05-24T16:37:56.244Z"
+  },
+  {
+    "id": "audit_35e8490ed1f54bad",
+    "action": "job_failed",
+    "userId": "local",
+    "jobId": "job_ae3f828deb7f40de",
+    "details": {
+      "error": "RunPod API Error (HTTP 500): start pod: There are not enough free GPUs on the host machine to start this pod."
+    },
+    "timestamp": "2026-05-24T16:37:58.456Z"
+  },
+  {
+    "id": "audit_a3ba6ef3915b4de0",
+    "action": "gpu_stop_initiated",
+    "userId": "local",
+    "jobId": "job_ae3f828deb7f40de",
+    "details": {
+      "providerId": "comfyui",
+      "instanceId": "iekamfpjo8bjeg"
+    },
+    "timestamp": "2026-05-24T16:37:59.230Z"
+  },
+  {
+    "id": "audit_3e7b87d200294b54",
+    "action": "credits_refunded",
+    "userId": "local",
+    "jobId": "job_ae3f828deb7f40de",
+    "details": {
+      "credits": 10,
+      "newBalance": 999938.7973
+    },
+    "timestamp": "2026-05-24T16:37:59.241Z"
+  }
+]

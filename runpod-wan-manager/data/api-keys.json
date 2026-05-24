@@ -1,0 +1,110 @@
+[
+  {
+    "id": "key_f4fc5aa4fe7541ff",
+    "name": "Production Worker Key",
+    "prefix": "mgr_live_e1e4",
+    "keyHash": "aa909d82b6140d28f310d72638d8d67d7ad78242604e0cca147da760d5951ed8",
+    "scopes": [
+      "jobs:write",
+      "jobs:read"
+    ],
+    "status": "revoked",
+    "ownerUserId": "user_123",
+    "teamId": "team_abc",
+    "createdAt": "2026-05-23T00:18:45.924Z",
+    "updatedAt": "2026-05-23T00:18:45.947Z",
+    "lastUsedAt": "2026-05-23T00:18:45.939Z",
+    "revokedAt": "2026-05-23T00:18:45.947Z",
+    "revokedReason": "Rotated"
+  },
+  {
+    "id": "key_44e81ff34f9b4066",
+    "name": "Production Worker Key rotated",
+    "prefix": "mgr_live_03d7",
+    "keyHash": "03b6290b6bf3ea3d6eb0406fe5beaf7cd08856c01b671119c658bfa13b9172b0",
+    "scopes": [
+      "jobs:write",
+      "jobs:read"
+    ],
+    "status": "revoked",
+    "ownerUserId": "user_123",
+    "teamId": "team_abc",
+    "createdAt": "2026-05-23T00:18:45.950Z",
+    "updatedAt": "2026-05-23T00:18:45.958Z",
+    "lastUsedAt": "2026-05-23T00:18:45.954Z",
+    "revokedAt": "2026-05-23T00:18:45.957Z",
+    "revokedReason": "Manual revocation test"
+  },
+  {
+    "id": "key_90792ea30e49426a",
+    "name": "Production Worker Key",
+    "prefix": "mgr_live_ea5d",
+    "keyHash": "d0f97f24d8e6760fdccf96aed5207fb3f0bb819004f9090d5333c5d83aed9eff",
+    "scopes": [
+      "jobs:write",
+      "jobs:read"
+    ],
+    "status": "revoked",
+    "ownerUserId": "user_123",
+    "teamId": "team_abc",
+    "createdAt": "2026-05-23T00:21:21.023Z",
+    "updatedAt": "2026-05-23T00:21:21.041Z",
+    "lastUsedAt": "2026-05-23T00:21:21.032Z",
+    "revokedAt": "2026-05-23T00:21:21.040Z",
+    "revokedReason": "Rotated"
+  },
+  {
+    "id": "key_8a58c5ce1e5346ba",
+    "name": "Production Worker Key rotated",
+    "prefix": "mgr_live_5edb",
+    "keyHash": "a696921b6ba53438d7138a086f248563fb97d195c72aa27e7d16f76869e49d43",
+    "scopes": [
+      "jobs:write",
+      "jobs:read"
+    ],
+    "status": "revoked",
+    "ownerUserId": "user_123",
+    "teamId": "team_abc",
+    "createdAt": "2026-05-23T00:21:21.043Z",
+    "updatedAt": "2026-05-23T00:21:21.052Z",
+    "lastUsedAt": "2026-05-23T00:21:21.047Z",
+    "revokedAt": "2026-05-23T00:21:21.051Z",
+    "revokedReason": "Manual revocation test"
+  },
+  {
+    "id": "key_6d9a490b0f9e4933",
+    "name": "Production Worker Key",
+    "prefix": "mgr_live_f2ed",
+    "keyHash": "16bb044a7e622c49f8f5c4b95736de1cdf4a6b5a4dcdf75ee1f89162a8544713",
+    "scopes": [
+      "jobs:write",
+      "jobs:read"
+    ],
+    "status": "revoked",
+    "ownerUserId": "user_123",
+    "teamId": "team_abc",
+    "createdAt": "2026-05-23T00:36:00.699Z",
+    "updatedAt": "2026-05-23T00:36:00.719Z",
+    "lastUsedAt": "2026-05-23T00:36:00.710Z",
+    "revokedAt": "2026-05-23T00:36:00.718Z",
+    "revokedReason": "Rotated"
+  },
+  {
+    "id": "key_ec67082140d24153",
+    "name": "Production Worker Key rotated",
+    "prefix": "mgr_live_980d",
+    "keyHash": "566bd24e6ccc5a8ed7f690dadd9c3173cd25df216c2d3e1166d7a3bd4780ead9",
+    "scopes": [
+      "jobs:write",
+      "jobs:read"
+    ],
+    "status": "revoked",
+    "ownerUserId": "user_123",
+    "teamId": "team_abc",
+    "createdAt": "2026-05-23T00:36:00.721Z",
+    "updatedAt": "2026-05-23T00:36:00.730Z",
+    "lastUsedAt": "2026-05-23T00:36:00.725Z",
+    "revokedAt": "2026-05-23T00:36:00.729Z",
+    "revokedReason": "Manual revocation test"
+  }
+]
